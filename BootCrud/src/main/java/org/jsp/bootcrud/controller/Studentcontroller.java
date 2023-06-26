@@ -59,7 +59,7 @@ public class Studentcontroller {
 	public Responsestructure<Student> deletebyid(@PathVariable int id) {
 		return service.deletebyid(id);
 	}
-	@GetMapping("studentdall/{id}")
+	@GetMapping("studentdall")
 	public Responsestructure<List<Student>> deleteall() {
 		return service.deleteall();
 	}
